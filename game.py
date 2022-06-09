@@ -70,9 +70,9 @@ def Computer_To_Win(player_choice, computer_choice):
         return(print("You LOSE!"))
 
 
-while(game_on):
+while(game_on): #Starts game
 
-    for i in range(1, 4):
+    for i in range(1, 4): #would run 3 trials/rounds per challenge
 
         print('\nRound', i, '\n\n')
         print('Starting game')
